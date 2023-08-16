@@ -6,9 +6,6 @@ import { useRouter } from "next/navigation";
 import { axios } from "axios";
 
 export default function LoginPage() {
-
-  const router = useRouter();
-
   const [user, setUser] = useState({
     email: "",
     password: ""
